@@ -1,0 +1,84 @@
+#body{
+    background-color: rgb(68, 71, 68);
+}    
+#nav {
+    background-color: rgb(93, 102, 93);
+}
+#contenedorimagen{
+    background-color: rgb(93, 102, 93);
+}
+.bordes{
+    margin-bottom: 10px;
+    background-color: rgb(68, 71, 68);
+}
+.palabrasnav{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+#contenedortexto{
+    background-color: rgb(68, 71, 68);
+}
+#plato{
+    width: 50%;
+}
+.frase1{
+    color: white;
+}
+.contenedor1{
+    width: 50px;
+    height: 250px;
+background-color:rgb(93, 102, 93);
+margin: 2%;
+color: white;
+}
+.contenedorespestañas{
+    width: 40%;
+}
+.iconosfooter{
+width: 30px;
+}
+.footer{
+    background-color: rgb(50, 53, 50);
+}
+.textofooter{
+    color: white;
+    margin: 2px;
+}
+.iconoscontacto{
+    width: 30px;
+}
+.mapa{
+    height: 70%;
+}
+.textoiconoscontacto{
+    color: white;
+}
+.seleccione{
+    margin-top: 1px;
+    margin-bottom: 0,5px;
+    color: white;
+}
+.seleccione1{
+    margin-top: 10px;
+    margin-bottom: 0,5px;
+    color: white;
+}
+.enviar{
+    background-color: rgb(93, 102, 93);
+    color:white;
+    margin:10px;
+}
+.fotoinicial{
+    width: 100%;
+}
+.calendario{
+    background-color: white;
+}
+.main1{
+    padding: 20px;
+}
+.indique{
+    margin: 10px;
+    color: white;
+}
