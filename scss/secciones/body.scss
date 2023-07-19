@@ -1,0 +1,8 @@
+.body {
+    background-color: $color-claro;
+}
+
+.bordes{
+    @extend .body ;
+    margin-bottom: 10px;
+    }

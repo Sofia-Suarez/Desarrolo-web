@@ -1,0 +1,12 @@
+.iconosfooter {
+    @include iconosfooter
+}
+
+.footer {
+    background-color: $color-footer;
+    padding-top: 10px;
+}
+.textofooter{
+    color: white;
+    margin: 2px;
+}

@@ -1,0 +1,30 @@
+$redes : (
+    whatsapp: #2bdd1b,
+    instagram: #aa1a5d,
+    telefono: #30af25,
+    twitter: #1178cc
+);
+
+@each $red, $color in $redes {
+   .btn--#{$red} {
+      color: $color;
+   }
+}
+
+$redes : (
+    whatsappborde: #2bdd1b,
+    instagramborde: #aa1a5d,
+    telefonoborde: #30af25,
+    twitterborde: #1178cc
+);
+
+@each $red, $color in $redes {
+   .btn--#{$red} {
+      border-color: $color;
+   }
+}
+
+
+
+
+

@@ -1,0 +1,9 @@
+#nav {
+    background-color: $color-oscuro ;
+}
+
+.palabrasnav{
+    @extend .frase1 ;
+    text-decoration: none;
+    margin: 5px;
+}

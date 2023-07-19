@@ -1,0 +1,20 @@
+#contenedorimagen {
+    background-color: $color-oscuro;
+}
+
+.frase1{
+    color: white;
+}
+#plato{
+    width: 50%;
+}
+#contenedortexto{ 
+    background-color: rgb(68, 71, 68);
+}
+
+.contenedor1 {
+    @include contenedores;
+}
+.contenedorespestañas {
+    @include contenedorespestañas
+}
