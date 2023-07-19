@@ -48,6 +48,7 @@
 
 .body, .bordes {
   background-color: rgb(68, 71, 68);
+  overflow-x: hidden;
 }
 
 .bordes {

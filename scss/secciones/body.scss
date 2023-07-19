@@ -1,8 +1,10 @@
 .body {
     background-color: $color-claro;
+    overflow-x: hidden;
 }
 
 .bordes{
     @extend .body ;
     margin-bottom: 10px;
-    }
+}
+
