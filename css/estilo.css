@@ -153,11 +153,13 @@
   min-height: 60vh;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas: "#contenedor1 #contenedor2  #contenedor3   #contenedor4  #contenedor5 ";
-  grid-template-columns: repeat 5, 1fr;
-  grid-template-rows: auto;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
