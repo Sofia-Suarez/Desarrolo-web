@@ -2,7 +2,7 @@ $redes : (
     whatsapp: #2bdd1b,
     instagram: #aa1a5d,
     telefono: #30af25,
-    twitter: #1178cc
+    twitter: #1178cc,
 );
 
 @each $red, $color in $redes {

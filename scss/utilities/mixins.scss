@@ -1,11 +1,14 @@
 @mixin contenedores {
     height: 250px ;
     background-color:rgb(93, 102, 93) ;
-    margin: 2%;
+    margin-top: 2%;
     color: white;
 }
 @mixin contenedorespestañas {
-    width: 40%;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 @mixin iconosfooter {

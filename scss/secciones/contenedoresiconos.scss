@@ -1,6 +1,7 @@
-@media screen and (max-width: 550px) {
-    #contenedor1,#contenedor2,#contenedor3,#contenedor4{
-      max-width: 150px; 
-}    
-
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  "#contenedor1 #contenedor2  #contenedor3   #contenedor4  #contenedor5 ";
+  grid-template-columns: repeat (5, 1fr);
+  grid-template-rows: auto;
 }

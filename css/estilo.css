@@ -126,15 +126,16 @@
 }
 
 .contenedor1 {
-  width: 50%;
   height: 250px;
   background-color: rgb(93, 102, 93);
-  margin: 2%;
+  margin-top: 2%;
   color: white;
 }
 
 .contenedorespestañas {
-  width: 40%;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 .main1 {
@@ -146,6 +147,17 @@
   margin-top: 1px;
   margin-bottom: 0, 5px;
   margin-left: 2px;
+}
+
+#main {
+  min-height: 60vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "#contenedor1 #contenedor2  #contenedor3   #contenedor4  #contenedor5 ";
+  grid-template-columns: repeat 5, 1fr;
+  grid-template-rows: auto;
 }
 
 /*# sourceMappingURL=estilo.css.map */
