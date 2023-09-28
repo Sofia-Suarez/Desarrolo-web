@@ -139,8 +139,10 @@
   flex-direction: row;
 }
 
-.main1 {
+#inscripcion {
+  margin-top: 20px;
   padding: 20px;
+  background-color: rgb(50, 53, 50);
 }
 
 .seleccione, .seleccione1 {
@@ -162,5 +164,16 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-
-/*# sourceMappingURL=estilo.css.map */
+#buscador {
+  background-color: rgb(93, 102, 93) ;
+  border-color: rgb(68, 71, 68);
+  color: white;
+}
+#cajabuscador {
+  margin-right: 40px;
+  margin-left: 20px;
+}
+#textoinsc {
+  color: white;
+  
+}
